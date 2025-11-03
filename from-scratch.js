@@ -67,7 +67,7 @@ return users.map((user) => `${user.name} scored ${user.score} points.`)
 
 // Problem 7
 const getUserNames = (users) => {
-
+return users.map((names) => names.name)
 };
 
 

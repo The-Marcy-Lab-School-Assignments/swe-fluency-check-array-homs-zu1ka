@@ -82,8 +82,9 @@ return users.filter((active) => active.age < 30 && active.isActive)
 
 // Problem 9
 const getTotalScore = (users) => {
-
+return users.reduce((acc, curr) => acc + curr.score, 0  )
 };
+
 
 // Problem 10
 const sortUsersByScoreDescending = (users) => {

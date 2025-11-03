@@ -20,9 +20,10 @@ const getStringLengths = (strings) => {
 
 
 
+
 // Problem 3
 const sortWordsZtoA = (words) => {
-
+return words.reverse().sort((a, b) => a - b)
 };
 
 /* -------------------------------------------- */

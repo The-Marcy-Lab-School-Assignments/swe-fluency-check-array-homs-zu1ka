@@ -88,5 +88,5 @@ return users.reduce((acc, curr) => acc + curr.score, 0  )
 
 // Problem 10
 const sortUsersByScoreDescending = (users) => {
-
+return users.sort((a,b) => b.score - a.score)
 };

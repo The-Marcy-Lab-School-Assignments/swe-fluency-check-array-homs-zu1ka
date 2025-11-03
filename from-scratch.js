@@ -59,8 +59,10 @@ const sampleUsers = [
 
 // Problem 6
 const printUserNamesAndScores = (users) => {
-
+return users.map((user) => `${user.name} scored ${user.score} points.`)
 };
+
+
 
 
 // Problem 7

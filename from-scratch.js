@@ -37,10 +37,13 @@ const getEvenNumbers = (nums) => {
  return nums.filter((num) => num % 2 === 0)
 };
 
+
 // Problem 5
 const getLargestNumber = (numbers) => {
-
+return numbers.reduce((acc, curr) => acc > curr ? acc : curr , numbers[0])
 };
+
+
 
 /* -------------------------------------------------- */
 /* --------------OBJECT ARRAY PROBLEMS--------------- */

@@ -73,8 +73,11 @@ return users.map((names) => names.name)
 
 // Problem 8
 const getActiveUsersUnder30 = (users) => {
-
+return users.filter((active) => active.age < 30 && active.isActive)
 };
+
+
+
 
 
 // Problem 9
